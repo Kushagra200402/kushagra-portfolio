@@ -45,7 +45,10 @@ export default function About() {
             <Reveal key={s.label} delay={0.1 + i * 0.08}>
               <div className="rounded-2xl border border-border bg-surface p-6 text-center">
                 <p className="font-display text-3xl font-bold gradient-text sm:text-4xl">
-                  <AnimatedCounter value={s.value} suffix={s.suffix} />
+                  <AnimatedCounter
+                    value={typeof s.value === "number" ? s.value : Number(s.value)}
+                    suffix={s.suffix}
+                  />
                 </p>
                 <p className="mt-2 text-xs font-medium text-muted sm:text-sm">{s.label}</p>
               </div>
