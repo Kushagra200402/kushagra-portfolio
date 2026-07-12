@@ -249,5 +249,5 @@ export const stats = [
   { label: "Years of Experience", value: 2, suffix: "+" },
   { label: "Enterprise ETL Efficiency Gain", value: 25, suffix: "%" },
   { label: "Manual Effort Reduced", value: 90, suffix: "%" },
-  { label: "Client Environments Monitored", value: 40+, suffix: "" },
+  { label: "Client Environments Monitored", value: "40+", suffix: "" },
 ];
