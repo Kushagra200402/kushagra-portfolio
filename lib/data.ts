@@ -108,7 +108,7 @@ export const experience: Experience[] = [
       "Designed and maintained ETL pipelines using PL/SQL, REST APIs, and Postgres databases to ingest, transform, and load currency exchange data for global clients.",
       "Developed Python-based file ingestion and SFTP automation workflows for enterprise ETL pipelines, reducing manual processing effort by 90%.",
       "Developed PySpark-based validation frameworks in Databricks to verify incremental ETL loads, ensuring data consistency and accuracy across Bronze, Silver, and Gold layers for multiple enterprise modules.",
-      "Implemented a centralized telemetry automation pipeline for 17 clients, consolidating ETL execution metrics into a single dataset and enabling automated email alerts and reporting.",
+      "Implemented a centralized telemetry automation pipeline for 40+ clients, consolidating ETL execution metrics into a single dataset and enabling automated email alerts and reporting.",
     ],
     tech: ["Python", "PL/SQL", "PySpark", "Databricks", "REST APIs", "PostgreSQL", "SFTP"],
   },
