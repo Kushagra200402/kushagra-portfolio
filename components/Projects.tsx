@@ -11,7 +11,7 @@ export default function Projects() {
         <SectionHeading
           eyebrow="Projects"
           title="Things I've built"
-          subtitle="Independent projects exploring applied machine learning and agentic AI."
+          subtitle="Independent projects exploring applied machine learning and Generative AI."
         />
 
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">

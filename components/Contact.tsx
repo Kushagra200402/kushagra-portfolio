@@ -124,7 +124,7 @@ export default function Contact() {
                   id="name"
                   {...register("name", { required: "Please enter your name" })}
                   className="w-full rounded-xl border border-border bg-background px-4 py-2.5 text-sm outline-none ring-primary/40 transition focus:ring-2"
-                  placeholder="Jane Doe"
+                  placeholder="Enter your name"
                 />
                 {errors.name && (
                   <p className="mt-1 text-xs text-red-500">{errors.name.message}</p>
@@ -143,7 +143,7 @@ export default function Contact() {
                     pattern: { value: /^\S+@\S+\.\S+$/, message: "Enter a valid email" },
                   })}
                   className="w-full rounded-xl border border-border bg-background px-4 py-2.5 text-sm outline-none ring-primary/40 transition focus:ring-2"
-                  placeholder="jane@company.com"
+                  placeholder="Enter your email"
                 />
                 {errors.email && (
                   <p className="mt-1 text-xs text-red-500">{errors.email.message}</p>
